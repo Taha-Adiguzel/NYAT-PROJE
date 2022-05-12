@@ -9,13 +9,17 @@ public class agArayuzu implements  IagArayuzu{
         this.publisher = publisher;
     }
     public void sogutucuAc(){
+        if(!eyle.isStatus()){
+            publisher.notify("Sogutucu acildi!");
+        }
         eyle.sogutucuAc();
-        publisher.notify("Sogutucu kapatildi!");
     }
 
     public void sogutucuKapat(){
+        if(eyle.isStatus()){
+            publisher.notify("Sogutucu kapatildi!");
+        }
         eyle.sogutucuKapat();
-        publisher.notify("Sogutucu kapatildi!");
     }
 
     public void sicaklikGonder(){

@@ -35,6 +35,11 @@ public class Eyleyici{
         }
 
     }
+
+    public boolean isStatus() {
+        return status;
+    }
+
     public void sicaklikarttir(){
         sicaklik.sicaklikArttir();
     }

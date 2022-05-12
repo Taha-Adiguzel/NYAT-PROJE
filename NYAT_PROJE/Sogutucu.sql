@@ -37,9 +37,9 @@ ALTER TABLE public."Hesaplar" OWNER TO postgres;
 --
 
 INSERT INTO public."Hesaplar" VALUES
-	('taha', '789'),
-	('emre', '456'),
-	('donk', '123');
+	('taha', '123'),
+	('g201210055', '201210055'),
+	('adiguzel', '999');
 
 
 --

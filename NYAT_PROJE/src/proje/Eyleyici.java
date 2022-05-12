@@ -36,16 +36,17 @@ public class Eyleyici{
 
     }
 
-    public boolean isStatus() {
-        return status;
-    }
-
-    public void sicaklikarttir(){
-        sicaklik.sicaklikArttir();
-    }
     public int sicaklikgetir(){
         return sicaklik.sicaklikOku();
     }
+
+    public boolean isStatus() {
+        return status;
+    }
+    public void sicaklikarttir(){
+        sicaklik.sicaklikArttir();
+    }
+
     public void sicaklikdusur(){
         sicaklik.sicaklikAzalt();
     }
